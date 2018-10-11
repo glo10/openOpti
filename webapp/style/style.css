@@ -1,0 +1,152 @@
+
+/***********GENERAL********/
+.flex-between{
+	display:flex;
+	justify-content:space-between;
+}
+
+.flex-end{
+	display:flex;
+	justify-content:flex-end;
+}
+
+.flex-around{
+	display:flex;
+	justify-content:flex-around;
+}
+
+.flex-center{
+	display:flex;
+	justify-content:center;
+}
+
+label{
+	font-weight:normal !important;
+}
+
+table.table-striped>tbody>tr>td{
+	vertical-align:middle;
+}
+
+table.table-striped>tbody>tr>td:first-child{
+	text-indent:2px;
+}
+
+p.alert.alert-info{
+	text-align:center;
+	font-size:25px;
+}
+
+h3{
+	margin-top:0Px !important;
+	margin-bottom:20px !important;
+}
+
+/***********MENU********/
+nav{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+ul.nav.nav-tabs>li>a{
+	border:1px solid lightgrey;
+}
+
+ul.dropdown-menu>li>a{
+	padding:10px;
+}
+
+ul.nav.nav-tabs>li.active>a{
+	font-weight:bold;
+	color:#449d44;
+	background-color:#f9f9f9;
+}
+
+/***********ACCUEIL********/
+input#filtre2{
+	width:250px;
+}
+
+th>span.glyphicon{
+	color:green;
+}
+
+.glyphicon.glyphicon-eye-open{
+	color:lightblue;
+}
+
+.glyphicon.glyphicon-sunglasses{
+	color:grey;
+}
+
+/***********CREER FACTURE********/
+fieldset{
+	border:1px solid lightgrey;
+	padding:0 2px 2px 2px !important;
+	
+}
+
+legend{
+	font-size:1.2em;
+	font-weight:bold;
+	padding: 0px 10px;
+	border-bottom:none;
+	color:#737373;
+}
+
+.btn.btn-default{
+	padding:2px 4px;
+}
+
+form.form-horizontal div.form-group{
+	margin-left:15px;
+	margin-right:0px;
+}
+
+form.form-horizontal fieldset{
+	margin:20px 0px;
+	box-shadow:2px 2px lightgrey;
+}
+
+.table-striped>tbody>tr>td{
+	padding:8px 0px;
+}
+
+tr.tableHead>th:first-child{
+	padding-left:0px;
+}
+
+.colorRed{
+	color:#c7254e;
+}
+
+p#require,div.mg{
+	margin:20px 0px;
+}
+
+/***************FACTURE DETAILLEE**********************/
+
+#fDetail .col-sm-4{
+	padding-left:0px !important;
+}
+
+#fDetail .col-sm-8{
+	padding-right:0px !important;
+}
+
+.comHead{
+	margin-left:5px;
+}
+
+#fDetail ul>li:nth-child(2n){
+	background-color:#f9f9f9;
+}
+
+.comContent{
+	margin-left:10px;
+}
+
+.fake{
+	color:green;
+	color:blue;
+}

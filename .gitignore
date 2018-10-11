@@ -1,0 +1,4 @@
+webapp/bdd/peuplement.sql
+webapp/WEB-INF/lib/*
+webapp/WEB-INF/log4j.xml
+webapp/alerts.xml
